@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/info.png</href></Icon></IconStyle>
+</Style>
+<Style id="z2">
+<IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/water.png</href></Icon></IconStyle>
+</Style>
+<Style id="z3">
+<IconStyle><Icon><href>https://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href></Icon></IconStyle>
+</Style>
+		<Folder>
+      <name>Libraries</name>
+<Placemark><name>Helen Topping</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28819,34.01929</coordinates></Point>
+</Placemark>
+<Placemark><name>Gerontology</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.29017,34.02011</coordinates></Point>
+</Placemark>
+<Placemark><name>Science Engg</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28893,34.01991</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28309,34.02167</coordinates></Point>
+</Placemark>
+<Placemark><name>Intl and PA</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28364,34.02129</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28410,34.02032</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+  <name>Waterbodies</name>
+<Placemark><name>Pardee Lawn</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28300,34.01967</coordinates></Point>
+</Placemark>
+<Placemark><name>Franklin Family</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28374,34.01919</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Fountain</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28502,34.02021</coordinates></Point>
+</Placemark>
+<Placemark><name>ATO Frat</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28462,34.02065</coordinates></Point>
+</Placemark>
+<Placemark><name>Generations</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28317,34.02223</coordinates></Point>
+</Placemark>
+<Placemark><name>Uytengsu</name>
+<styleUrl>#z2</styleUrl><Point><coordinates>-118.28803,34.02400</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+  <name>Home</name>
+<Placemark><name>Home</name>
+<styleUrl>#z3</styleUrl><Point><coordinates>-118.29416,34.02232</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder>
+  <name>Convex Hull</name>
+  <Placemark>
+    <LineString>
+      <coordinates>
+      -118.28374,34.01919
+      -118.28819,34.01929
+      -118.29017,34.02011
+      -118.29416,34.02232
+      -118.28803,34.024
+      -118.28317,34.02223
+      -118.28309,34.02167
+      -118.283,34.01967
+      -118.28374,34.01919
+      </coordinates>
+    </LineString>
+    </Placemark>
+</Folder>
+<Folder>
+  <name>Nearest Neighbour Line</name>
+    <Placemark>
+    <LineString>
+      <coordinates>-118.29017,34.02011 -118.29416,34.02232</coordinates>
+    </LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
